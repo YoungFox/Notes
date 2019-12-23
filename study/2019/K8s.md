@@ -35,3 +35,15 @@ kubectl get svc
 ```
 
 cluster是docker的容器调度解决方案
+
+
+## 一些命令
+
+
+```
+kubectl -n k8s01 get svc
+
+kubectl config  view --minify
+
+kubectl get node -o yaml
+```
