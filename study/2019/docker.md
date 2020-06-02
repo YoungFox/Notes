@@ -59,11 +59,6 @@ RUN:最常用的指令之一
 COPY\ADD:尽量用COPY,只在需要解压的地方用ADD
 
 
-删除所有镜像
-
-```
-docker rmi $(docker images -q)
-```
 
 停止所有容器
 ```
@@ -73,6 +68,12 @@ docker stop $(docker ps -aq)
 删除所有容器
 ```
 docker rm $(docker ps -aq)
+```
+
+删除所有镜像
+
+```
+docker rmi $(docker images -q)
 ```
 
 
